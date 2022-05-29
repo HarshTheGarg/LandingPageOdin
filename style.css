@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,200;1,300&display=swap');
 
 body {
     display: flex;
@@ -54,13 +53,13 @@ header {
     font-size: 48px;
     font-weight: 700;
     color: #F9FAF8;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .hero_subtext {
     color: #E5E7EB;
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .hero_button {
@@ -115,7 +114,7 @@ header {
 }
 
 .information_content {
-    padding: 10px 20px;
+    padding: 10px 20px 0 20px;
 }
 
 .information_illustrations {
@@ -127,4 +126,21 @@ header {
 
 .information_illustration_text {
     font-size: 12px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 60px 110px;
+}
+
+.the_quote {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.quote_speaker {
+    text-align: right;
+    font-weight: 700;
+    padding-right: 30px;
 }
