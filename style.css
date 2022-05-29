@@ -8,6 +8,8 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+
+/** Header **/
 header {
     background-color: #1f2937;
     display: flex;
@@ -32,6 +34,8 @@ header {
     padding: 0 0 0 1em;
 }
 
+
+/** Hero **/
 .hero {
     background-color: #1f2937;
     padding: 5em 5em;
@@ -89,6 +93,8 @@ header {
     margin-left: 2.5em;
 }
 
+
+/** Information **/
 .information {
     display: flex;
     flex-direction: column;
@@ -128,6 +134,8 @@ header {
     font-size: 12px;
 }
 
+
+/** Quote **/
 .quote {
     background-color: #E5E7EB;
     padding: 60px 110px;
@@ -143,4 +151,46 @@ header {
     text-align: right;
     font-weight: 700;
     padding-right: 30px;
+}
+
+
+/** Call to action **/
+.call_to_action {
+    padding: 70px 5em;
+}
+
+.call_to_action_container {
+    background-color: #3882F6;
+    border-radius: 4px;
+    padding: 40px 60px;
+    color: #E5E7EB;
+    display: flex;
+
+}
+
+.cta_left {
+    flex: 3;
+}
+
+.cta_upper {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.cta_lower {
+    font-size: 12px;
+}
+
+.cta_right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.cta_right div {
+    padding: 5px 15px;
+    border: #E5E7EB 2px solid; 
+    border-radius: 7px;
 }
