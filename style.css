@@ -11,7 +11,7 @@ body {
 
 /** Header **/
 header {
-    background-color: #1f2937;
+    background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,8 +30,8 @@ header {
 }
 
 .links span {
-    font-size: 18px;
-    padding: 0 0 0 1em;
+    font-size: 14px;
+    padding: 0 0.5em;
 }
 
 
@@ -193,4 +193,16 @@ header {
     padding: 5px 15px;
     border: #E5E7EB 2px solid; 
     border-radius: 7px;
+}
+
+
+/** Footer **/
+footer {
+    background-color: #1F2937;
+    padding: 25px;
+    color: #E5E7EB;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
